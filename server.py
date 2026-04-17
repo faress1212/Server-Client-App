@@ -18,7 +18,7 @@ def handle(conn):
     conn.close()
 
 server = socket.socket()
-server.bind(('0.0.0.0', 500009))
+server.bind(('0.0.0.0', 50050))
 server.listen(5)
 print("Server running...")
 
